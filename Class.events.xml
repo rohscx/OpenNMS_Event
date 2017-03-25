@@ -1,0 +1,18 @@
+<events>
+  <event>
+    <uei>uei.opennms.org/class/happiness</uei>
+    <event-label>OpenNMS defined event: The OpenNMS Class is so happy</event-label>
+    <descr>
+      &lt;p&gt;This event is sent when the OpenNMS Class is happy.&lt;/p&gt;
+      &lt;ul&gt;
+      &lt;li&gt;Dance, Everybody Dance!&lt;/li&gt;
+      &lt;li&gt;Life is Good!&lt;/li&gt;
+      &lt;li&gt;This is Fun!&lt;/li&gt;
+      &lt;/ul&gt;
+    </descr>
+    <logmsg dest='logndisplay'>
+      &lt;p&gt;OpenNMS Class is Happy! &lt;/p&gt;
+    </logmsg>
+    <severity>Normal</severity>
+  </event>
+</events>
