@@ -1,19 +1,5 @@
-/*
-** showip.c -- show IP addresses for a host given on the command line
-*/
-
-#include <stdio.h>
-#include <string.h>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include <netdb.h>
-#include <arpa/inet.h>
-#include <netinet/in.h>
-
-struct addrinfo hints, *res;
-int sockfd;
-
-// first, load up address structs with getaddrinfo():
 
 memset(&hints, 0, sizeof hints);
 hints.ai_family = AF_UNSPEC;
