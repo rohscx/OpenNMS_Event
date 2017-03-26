@@ -1,0 +1,18 @@
+<events>
+  <event>
+    <uei>uei.opennms.org/ed_home/n3tm0n/normal</uei>
+    <event-label>ED_HOME defined event: The ED_HOME application n3tm0n is Normal</event-label>
+    <descr>
+      &lt;p&gt;This event is sent when the ED_HOME applicatoin n3tm0n is happy.&lt;/p&gt;
+      &lt;ul&gt;
+      &lt;li&gt;Dance, Everybody Dance!&lt;/li&gt;
+      &lt;li&gt;Life is Good!&lt;/li&gt;
+      &lt;li&gt;This is Fun!&lt;/li&gt;
+      &lt;/ul&gt;
+    </descr>
+    <logmsg dest='logndisplay'>
+      &lt;p&gt;n3tm0n is Happy! &lt;/p&gt;
+    </logmsg>
+    <severity>Normal</severity>
+  </event>
+</events>
